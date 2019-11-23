@@ -24,5 +24,6 @@ use MakeFile to compile and build editor:
 `make`
 
 , then run:
+
 `./editor source.ppm destination.ppm flip rotate flip sepia`
 
