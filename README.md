@@ -1,15 +1,15 @@
 # imageEditor
 c++ program to edit ppm typed images using decorator pattern
 
-3 types of operations: flip, rotate, and sepia
+##3 types of operations: flip, rotate, and sepia
 
-flip: 
+###flip: 
 ﬂip image horizontally
 
-rotate: 
+###rotate: 
 rotate image 90 degrees clockwise
 
-sepia: 
+###sepia: 
 modify RGB values as following:
 
 red: `np.r = p.r *.393 + p.g * .769 + p.b * .189`
