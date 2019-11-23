@@ -1,5 +1,5 @@
 CXX = g++-5
-CXXFLAGS = -g -std=c++14 -Wall -MMD -Werror=vla
+CXXFLAGS = -g -std=c++14 -no-pie -Wall -MMD -Werror=vla
 EXEC = editor
 OBJECTS = main.o ppm.o image.o exception.o basic.o decorator.o rotate.o flip.o sepia.o
 DEPENDS = ${OBJECTS:.o=.d}
