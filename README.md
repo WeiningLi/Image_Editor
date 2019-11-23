@@ -17,7 +17,9 @@ np.b = p.r *.272 + p.g * .534 + p.b * .131
 
 
 use MakeFile to compile and build editor:
-`<make>`
+
+`make`
+
 , then run:
-`<./editor source.ppm destination.ppm flip rotate flip sepia>`
+`./editor source.ppm destination.ppm flip rotate flip sepia`
 
