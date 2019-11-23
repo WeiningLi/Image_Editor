@@ -19,6 +19,7 @@ modify RGB values as following:
   blue: `np.b = p.r *.272 + p.g * .534 + p.b * .131 `
 
 
+## Run the Program
 use MakeFile to compile and build editor:
 
 `make`
